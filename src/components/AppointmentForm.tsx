@@ -72,6 +72,8 @@ const AppointmentForm: React.FC<IAppointmentForm> =  ({submitForm}) => {
         }
     }
 
+    if(error) return <p>Error: {error}</p>
+
     return (
         <form className="bg-light p-4 shadow rounded m-4" onSubmit={handleSubmit}>
             <h1 className="text-center mb-4">Formulario de Citas</h1>

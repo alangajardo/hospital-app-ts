@@ -45,6 +45,8 @@ Se aplicí sanitización en el proyecto para evitar XXS (cross-site scripting), 
 
 3. Ataque DoS (Denegación de Servicio): En el frontend, puedes implementar limitaciones en los intentos de envío de formularios (por ejemplo, restringiendo la cantidad de solicitudes por usuario en un tiempo determinado). El backend debe manejar medidas más avanzadas como firewalls, limitación de tráfico y bloqueo de direcciones IP sospechosas.
 
+# Resultado Lighthouse
+<img src="./src/assets/imagen-lighthouse.png"/>
 
 
 # Tecnologías utilizadas

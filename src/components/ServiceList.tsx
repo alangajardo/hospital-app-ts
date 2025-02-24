@@ -10,7 +10,7 @@ const ServiceList: React.FC<IServiceList> = ({servicios}) => {
                         servicios.map((servicio, index) => (
                             <div key={servicio.id} className={`carousel-item ${index==0 ? 'active': ''}`}>
                                 <article>
-                                    <img className="d-block w-100 servicio__img" src={servicio.img} alt={servicio.nombre}/>
+                                    <img className="d-block w-100 servicio__img" src={`${import.meta.env.BASE_URL}${servicio.img}`} alt={servicio.nombre}/>
                                     <div className="carousel-caption d-md-block servicio__parrafo">
                                         <h4><b>{servicio.nombre}</b></h4>
                                         <p>{servicio.descripcion}</p>

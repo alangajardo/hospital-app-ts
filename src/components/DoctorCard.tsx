@@ -8,7 +8,7 @@ const DoctorCard: React.FC<IDoctor> = ({nombre, imagen, especialidad, aniosExp, 
     return (
         <article className="col-sm-12 col-md-6 col-lg-3">
             <div className="card h-100">
-                <img className="card-img-top equipo__img" src={imagen} alt={nombre} />
+                <img className="card-img-top equipo__img" src={`${import.meta.env.BASE_URL}${imagen}`} alt={nombre} />
                 <div className="card-body">
                     <h5 className="card-title">
                         {nombre}
