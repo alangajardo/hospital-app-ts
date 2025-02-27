@@ -3,7 +3,7 @@ import { deleteUsuario, getUsuarios } from "../services/api"
 import { IUsuario } from "../interfaces/IUsuario"
 
 const UsuariosList = () => {
-    const [usuarios, setUsuarios] = useState([])
+    const [usuarios, setUsuarios] = useState<IUsuario[]>([])
     const [error, setError] = useState<string | null>(null)
 
     useEffect(() => {

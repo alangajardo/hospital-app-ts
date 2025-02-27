@@ -21,6 +21,7 @@ const LoginView =  () => {
         e.preventDefault()
         try {
             const usuarios = await getUsuarios()
+            console.log(usuarios)
             const usuarioEncontrado = usuarios.find((user: IUsuario) => user.correo==formData.correo && user.clave==formData.clave)
             if(usuarioEncontrado){
                 login(usuarioEncontrado)

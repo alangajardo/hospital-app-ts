@@ -2,10 +2,9 @@ import { useEffect, useState } from "react"
 import DoctorCard from "./DoctorCard"
 import { IUsuario } from "../interfaces/IUsuario"
 import { getUsuarios } from "../services/api"
-import { IDoctor } from "../interfaces/IDoctor"
 
 const DoctorList = () => {
-    const [doctores, setDoctores] = useState([])
+    const [doctores, setDoctores] = useState<IUsuario[]>([])
     const [error, setError] = useState<string | null>(null)
 
     useEffect(() => {
@@ -27,14 +26,14 @@ const DoctorList = () => {
     return (
         <section className="row px-5 m-4">
             {
-                doctores.map((doctor: IDoctor) => (
+                doctores.map((doctor: IUsuario) => (
                     <DoctorCard
                         key = {doctor.id}
-                        imagen = {doctor.imagen}
+                        imagen = {doctor.imagen || ""}
                         nombre = {doctor.nombre}
-                        especialidad = {doctor.especialidad}
-                        aniosExp = {doctor.aniosExp}
-                        descripcion = {doctor.descripcion}
+                        especialidad = {doctor.especialidad || ""}
+                        aniosExp = {doctor.aniosExp || 0}
+                        descripcion = {doctor.descripcion || ""}
                     />
             ))
             }

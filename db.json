@@ -1,109 +1,109 @@
 {
-    "usuarios": [
-      {
-        "id": "d999",
-        "dni": "17543330-9",
-        "nombre": "Alan Marcelo Gajardo Medina",
-        "fechaNacimiento": "1990-03-24",
-        "genero": "masculino",
-        "correo": "alan@gmail.com",
-        "clave": "U2FsdGVkX1/ho2lVnIbQAqLFvcGpmMB0tPW4YhUWRaE=",
-        "rol": "paciente"
-      },
-      {
-        "id": "5d4a",
-        "dni": "12345678-9",
-        "nombre": "Juan Marcelo Diaz Perez",
-        "fechaNacimiento": "1990-01-01",
-        "genero": "otro",
-        "correo": "admin@gmail.com",
-        "clave": "U2FsdGVkX19aNUHXyr+m5OAHzq8YPtnobuX3FRbGj1E=",
-        "rol": "admin"
-      },
-      {
-        "id": "1",
-        "dni": "11111111-1",
-        "nombre": "Dr. Stephen Strange",
-        "fechaNacimiento": "1990-01-01",
-        "genero": "otro",
-        "correo": "stephen@gmail.com",
-        "clave": "U2FsdGVkX1+aQlBUuRbRzxV60aby8RWD0KUPNnLztvI=",
-        "rol": "doctor",
-        "imagen": "assets/doctores/dr_stepher_strange.jpeg",
-        "especialidad": "Traumatología",
-        "aniosExp": 5,
-        "descripcion": "El Dr. Stephen Strange es un especialista en traumatología con amplia experiencia en el diagnóstico y tratamiento de lesiones musculoesqueléticas, fracturas y problemas articulares. Se ha formado en instituciones de prestigio y participa activamente en congresos y cursos de actualización médica. Su enfoque combina técnicas quirúrgicas avanzadas con tratamientos conservadores, priorizando la recuperación funcional y el bienestar de sus pacientes. Con una atención cercana y profesional, el Dr. Stephen Strange se dedica a mejorar la calidad de vida de cada persona que confía en su cuidado."
-      },
-      {
-        "id": "2",
-        "dni": "11111111-1",
-        "nombre": "Dr. Christine Palmer",
-        "fechaNacimiento": "1990-01-01",
-        "genero": "otro",
-        "correo": "christine@gmail.com",
-        "clave": "U2FsdGVkX1+I4uary6D3yedP2YcTonrOJkCriSFncLE=",
-        "rol": "doctor",
-        "imagen": "assets/doctores/dr_christine_palmer.jpeg",
-        "especialidad": "Ginecología",
-        "aniosExp": 8,
-        "descripcion": "La Dra. Christine Palmer es una destacada ginecóloga con amplia trayectoria en el cuidado de la salud femenina. Especializada en el diagnóstico y tratamiento de afecciones ginecológicas, control prenatal y salud reproductiva, combina conocimiento científico con un enfoque empático hacia sus pacientes. Ha participado en múltiples congresos y programas de actualización, manteniéndose a la vanguardia en su especialidad. La Dra. Palmer se distingue por su compromiso con brindar atención integral y personalizada, priorizando el bienestar físico y emocional de cada mujer en todas las etapas de su vida."
-      },
-      {
-        "id": "3",
-        "dni": "11111111-1",
-        "nombre": "Dr. Fate",
-        "fechaNacimiento": "1990-01-01",
-        "genero": "otro",
-        "correo": "fate@gmail.com",
-        "clave": "U2FsdGVkX1+PDFf2tqL19xDry3Ps4y2VWbWrMQP7L0U=",
-        "rol": "doctor",
-        "imagen": "assets/doctores/dr_fate.webp",
-        "especialidad": "Pediatría",
-        "aniosExp": 15,
-        "descripcion": "El Dr. Fate es un pediatra comprometido con el cuidado integral de la salud infantil, desde recién nacidos hasta adolescentes. Con amplia experiencia en prevención, diagnóstico y tratamiento de enfermedades pediátricas, su enfoque busca no solo tratar afecciones, sino también promover el desarrollo saludable. Participa activamente en programas de formación continua y eventos médicos para mantenerse al día con los avances en su campo. Con una actitud cercana y empática, el Dr. Fate ofrece un cuidado personalizado, asegurando que cada niño reciba la atención necesaria para crecer sano y feliz."
-      },
-      {
-        "id": "4",
-        "dni": "11111111-1",
-        "nombre": "Dr. Derek Sheperd",
-        "fechaNacimiento": "1990-01-01",
-        "genero": "otro",
-        "correo": "derek@gmail.com",
-        "clave": "U2FsdGVkX1+edWEErfubueywWLpT7AEkVLcA5ZoJpEQ=",
-        "rol": "doctor",
-        "imagen": "assets/doctores/dr_derek_sheperd.jpeg",
-        "especialidad": "Neurología",
-        "aniosExp": 7,
-        "descripcion": "El Dr. Derek Shepherd es un reconocido neurólogo con amplia experiencia en el diagnóstico y tratamiento de trastornos del sistema nervioso, como epilepsia, enfermedades neurodegenerativas, accidentes cerebrovasculares y migrañas. Ha desarrollado su carrera combinando conocimientos clínicos avanzados con un enfoque innovador en terapias neurológicas. Participa en investigaciones y congresos internacionales para mantenerse a la vanguardia de los avances en su especialidad. Con una atención empática y centrada en el paciente, el Dr. Shepherd se dedica a brindar tratamientos personalizados, mejorando la calidad de vida de quienes confían en su cuidado."
-      }
-    ],
-    "citas": [
-      {
-        "id": "6aa5",
-        "nombre": "alan",
-        "doctor": "Dr. Stephen Strange",
-        "especialidad": "Traumatología",
-        "fecha": "2025-02-13"
-      }
-    ],
-    "servicios": [
-      {
-        "id": "1",
-        "nombre": "Urgencia",
-        "descripcion": "El servicio de urgencia de un hospital ofrece atención médica inmediata a pacientes en condiciones críticas, funcionando las 24 horas con personal especializado y equipamiento para estabilizar y diagnosticar.",
-        "img": "assets/servicios/servicio_1.jpg"
-      },
-      {
-        "id": "2",
-        "nombre": "Telemedicina",
-        "descripcion": "El servicio de telemedicina proporciona atención médica a distancia mediante tecnologías como videollamadas y chats, permitiendo consultas sin desplazamientos y optimizando recursos sanitarios, manteniendo la confidencialidad y calidad del cuidado.",
-        "img": "assets/servicios/servicio_2.jpg"
-      },
-      {
-        "id": "3",
-        "nombre": "Paliativos",
-        "descripcion": "El servicio de cuidados paliativos mejora la calidad de vida de pacientes con enfermedades avanzadas sin cura, como el cáncer terminal, aliviando el dolor y síntomas, y brindando apoyo a las familias mientras prioriza el confort del paciente.",
-        "img": "assets/servicios/servicio_3.jpg"
-      }
-    ]
-  }
+  "usuarios": [
+    {
+      "id": "5",
+      "dni": "17543330-9",
+      "nombre": "Alan Marcelo Gajardo Medina",
+      "fechaNacimiento": "1990-03-24",
+      "genero": "masculino",
+      "correo": "alan@gmail.com",
+      "clave": "U2FsdGVkX1/ho2lVnIbQAqLFvcGpmMB0tPW4YhUWRaE=",
+      "rol": "paciente"
+    },
+    {
+      "id": "6",
+      "dni": "12345678-9",
+      "nombre": "Juan Marcelo Diaz Perez",
+      "fechaNacimiento": "1990-01-01",
+      "genero": "otro",
+      "correo": "admin@gmail.com",
+      "clave": "U2FsdGVkX19aNUHXyr+m5OAHzq8YPtnobuX3FRbGj1E=",
+      "rol": "admin"
+    },
+    {
+      "id": "1",
+      "dni": "11111111-1",
+      "nombre": "Dr. Stephen Strange",
+      "fechaNacimiento": "1990-01-01",
+      "genero": "otro",
+      "correo": "stephen@gmail.com",
+      "clave": "U2FsdGVkX1+aQlBUuRbRzxV60aby8RWD0KUPNnLztvI=",
+      "rol": "doctor",
+      "imagen": "assets/doctores/dr_stepher_strange.jpeg",
+      "especialidad": "Traumatología",
+      "aniosExp": 5,
+      "descripcion": "El Dr. Stephen Strange es un especialista en traumatología con amplia experiencia en el diagnóstico y tratamiento de lesiones musculoesqueléticas, fracturas y problemas articulares. Se ha formado en instituciones de prestigio y participa activamente en congresos y cursos de actualización médica. Su enfoque combina técnicas quirúrgicas avanzadas con tratamientos conservadores, priorizando la recuperación funcional y el bienestar de sus pacientes. Con una atención cercana y profesional, el Dr. Stephen Strange se dedica a mejorar la calidad de vida de cada persona que confía en su cuidado."
+    },
+    {
+      "id": "2",
+      "dni": "11111111-1",
+      "nombre": "Dr. Christine Palmer",
+      "fechaNacimiento": "1990-01-01",
+      "genero": "otro",
+      "correo": "christine@gmail.com",
+      "clave": "U2FsdGVkX1+I4uary6D3yedP2YcTonrOJkCriSFncLE=",
+      "rol": "doctor",
+      "imagen": "assets/doctores/dr_christine_palmer.jpeg",
+      "especialidad": "Ginecología",
+      "aniosExp": 8,
+      "descripcion": "La Dra. Christine Palmer es una destacada ginecóloga con amplia trayectoria en el cuidado de la salud femenina. Especializada en el diagnóstico y tratamiento de afecciones ginecológicas, control prenatal y salud reproductiva, combina conocimiento científico con un enfoque empático hacia sus pacientes. Ha participado en múltiples congresos y programas de actualización, manteniéndose a la vanguardia en su especialidad. La Dra. Palmer se distingue por su compromiso con brindar atención integral y personalizada, priorizando el bienestar físico y emocional de cada mujer en todas las etapas de su vida."
+    },
+    {
+      "id": "3",
+      "dni": "11111111-1",
+      "nombre": "Dr. Fate",
+      "fechaNacimiento": "1990-01-01",
+      "genero": "otro",
+      "correo": "fate@gmail.com",
+      "clave": "U2FsdGVkX1+PDFf2tqL19xDry3Ps4y2VWbWrMQP7L0U=",
+      "rol": "doctor",
+      "imagen": "assets/doctores/dr_fate.webp",
+      "especialidad": "Pediatría",
+      "aniosExp": 15,
+      "descripcion": "El Dr. Fate es un pediatra comprometido con el cuidado integral de la salud infantil, desde recién nacidos hasta adolescentes. Con amplia experiencia en prevención, diagnóstico y tratamiento de enfermedades pediátricas, su enfoque busca no solo tratar afecciones, sino también promover el desarrollo saludable. Participa activamente en programas de formación continua y eventos médicos para mantenerse al día con los avances en su campo. Con una actitud cercana y empática, el Dr. Fate ofrece un cuidado personalizado, asegurando que cada niño reciba la atención necesaria para crecer sano y feliz."
+    },
+    {
+      "id": "4",
+      "dni": "11111111-1",
+      "nombre": "Dr. Derek Sheperd",
+      "fechaNacimiento": "1990-01-01",
+      "genero": "otro",
+      "correo": "derek@gmail.com",
+      "clave": "U2FsdGVkX1+edWEErfubueywWLpT7AEkVLcA5ZoJpEQ=",
+      "rol": "doctor",
+      "imagen": "assets/doctores/dr_derek_sheperd.jpeg",
+      "especialidad": "Neurología",
+      "aniosExp": 7,
+      "descripcion": "El Dr. Derek Shepherd es un reconocido neurólogo con amplia experiencia en el diagnóstico y tratamiento de trastornos del sistema nervioso, como epilepsia, enfermedades neurodegenerativas, accidentes cerebrovasculares y migrañas. Ha desarrollado su carrera combinando conocimientos clínicos avanzados con un enfoque innovador en terapias neurológicas. Participa en investigaciones y congresos internacionales para mantenerse a la vanguardia de los avances en su especialidad. Con una atención empática y centrada en el paciente, el Dr. Shepherd se dedica a brindar tratamientos personalizados, mejorando la calidad de vida de quienes confían en su cuidado."
+    }
+  ],
+  "citas": [
+    {
+      "id": "6aa5",
+      "nombre": "alan",
+      "doctor": "Dr. Stephen Strange",
+      "especialidad": "Traumatología",
+      "fecha": "2025-02-13"
+    }
+  ],
+  "servicios": [
+    {
+      "id": "1",
+      "nombre": "Urgencia",
+      "descripcion": "El servicio de urgencia de un hospital ofrece atención médica inmediata a pacientes en condiciones críticas, funcionando las 24 horas con personal especializado y equipamiento para estabilizar y diagnosticar.",
+      "img": "assets/servicios/servicio_1.jpg"
+    },
+    {
+      "id": "2",
+      "nombre": "Telemedicina",
+      "descripcion": "El servicio de telemedicina proporciona atención médica a distancia mediante tecnologías como videollamadas y chats, permitiendo consultas sin desplazamientos y optimizando recursos sanitarios, manteniendo la confidencialidad y calidad del cuidado.",
+      "img": "assets/servicios/servicio_2.jpg"
+    },
+    {
+      "id": "3",
+      "nombre": "Paliativos",
+      "descripcion": "El servicio de cuidados paliativos mejora la calidad de vida de pacientes con enfermedades avanzadas sin cura, como el cáncer terminal, aliviando el dolor y síntomas, y brindando apoyo a las familias mientras prioriza el confort del paciente.",
+      "img": "assets/servicios/servicio_3.jpg"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import MainLayout from "../layouts/MainLayout"
 import RegistroForm from "../components/RegistroForm"
-import { createUsuario } from "../services/api"
+import { createPaciente } from "../services/api"
 
 const RegistroView = () => {
     const [error, setError] = useState("")
@@ -28,12 +28,7 @@ const RegistroView = () => {
         }
         try {
             const {confirmarClave, ...usuarioSinConfirmarClave} = formData
-            const token = localStorage.getItem('user')
-            if(!token){
-                setError("No se encontró un token válido. Inicia sesión de nuevo")
-                return
-            }
-            await createUsuario(usuarioSinConfirmarClave, token)
+            await createPaciente(usuarioSinConfirmarClave)
             alert("Paciente registrado con éxito")
             setError("")
             setFormData({
