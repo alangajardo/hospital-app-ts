@@ -12,4 +12,5 @@ export interface IUsuario {
     especialidad?: string;
     aniosExp?: number;
     descripcion?:string;
+    latLong?: {}
 }

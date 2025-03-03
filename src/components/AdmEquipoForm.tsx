@@ -1,7 +1,7 @@
 import React from "react"
 import { IAdmEquipoForm } from "../interfaces/IAdmEquipoForm"
 
-const AdmEquipoForm: React.FC<IAdmEquipoForm> = ({formData, handleChange, handleSubmit}) => {
+const AdmEquipoForm: React.FC<IAdmEquipoForm> = ({formData, handleChange, handleCapture, handleSubmit}) => {
     return (
         <form onSubmit={handleSubmit} className="p-4 border rounded bg-light m-4">
             <div className="mb-3">
@@ -50,8 +50,8 @@ const AdmEquipoForm: React.FC<IAdmEquipoForm> = ({formData, handleChange, handle
             {formData.rol === "doctor" && (
                 <>
                     <div className="mb-3">
-                        <label className="form-label" htmlFor="imagen">Imagen (URL simulada)</label>
-                        <input className="form-control" type="text" name="imagen" value={formData.imagen} onChange={handleChange} />
+                        <label className="form-label" htmlFor="imagen">Imagen 📸</label>
+                        <input className="form-control" type="file" accept="image/*" capture="environment" name="imagen" value={formData.imagen} onChange={handleCapture} />
                     </div>
                     <div className="mb-3">
                         <label className="form-label" htmlFor="especialidad">Especialidad</label>
